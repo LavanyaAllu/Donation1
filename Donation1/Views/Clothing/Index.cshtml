@@ -1,0 +1,39 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Clothing</h2>
+<body style="background-color:antiquewhite">
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label>
+    <input type="radio" id="other" name="gender" value="other">
+    <label for="other">Other</label>
+    <form>
+        <input type="radio" id="f1" name="gender" value="f1">
+        <label for="f1">0-3</label><br>
+        <input type="text" id="f1" name="f1"><br>
+        <input type="radio" id="f2" name="gender" value="f2">
+        <label for="f2">3-13</label><br>
+        <input type="text" id="f2" name="f2"><br>
+        <input type="radio" id="f3" name="gender" value="f3">
+        <label for="f3">13-18</label><br>
+        <input type="text" id="f3" name="f3"><br>
+        <input type="radio" id="f4" name="gender" value="f4">
+        <label for="male">18-25</label><br>
+        <input type="text" id="f4" name="f4"><br>
+        <input type="radio" id="f5" name="gender" value="f5">
+        <label for="male">25-40</label><br>
+        <input type="text" id="f5" name="f5"><br>
+        <input type="radio" id="f6" name="gender" value="f6">
+        <label for="male">40 & Above</label><br>
+        <input type="text" id="f6" name="f6"><br>
+    </form>
+    <div class="text-center">
+        @Html.ActionLink("Continue", "Contact", new { Controller = "Food" }, new { @class = "btn btn-primary" })
+    </div>
+    </body>
+
+

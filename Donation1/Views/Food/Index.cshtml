@@ -1,0 +1,37 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Food</h2>
+
+<body style="background-color:antiquewhite">
+    <form>
+        <input type="checkbox" id="f1" name="f1" value="f1">
+        <label for="f1">Bread/Chapathi</label><br>
+        <input type="text" id="f1" name="f1"><br>
+        <input type="checkbox" id="f2" name="f2" value="f2">
+        <label for="f2">Rice</label><br>
+        <input type="text" id="f2" name="f2"><br>
+        <input type="checkbox" id="f3" name="f3" value="f3">
+        <label for="f3">Vegetables</label><br>
+        <input type="text" id="f3" name="f3"><br>
+        <input type="checkbox" id="f4" name="f4" value="f4">
+        <label for="f4">Dal</label><br>
+        <input type="text" id="f4" name="f4"><br>
+        <input type="checkbox" id="f5" name="f5" value="f5">
+        <label for="f5">Curry</label><br>
+        <input type="text" id="f5" name="f5"><br>
+        <input type="checkbox" id="f6" name="f6" value="f6">
+        <label for="f6">Dessert</label><br>
+        <input type="text" id="f6" name="f6"><br>
+        <input type="checkbox" id="f7" name="f7" value="f7">
+        <label for="f7">Others</label><br>
+        <input type="text" id="f7" name="f7"><br>
+
+    </form>
+    <div class="text-center">
+        @Html.ActionLink("Continue", "Contact", new { Controller = "Food" }, new { @class = "btn btn-primary" })
+    </div>
+    </body>
+

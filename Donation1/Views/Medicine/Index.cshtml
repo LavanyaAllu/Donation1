@@ -1,0 +1,33 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Medicine</h2>
+
+<body style="background-color:antiquewhite">
+    <form>
+        <input type="checkbox" id="f1" name="f1" value="f1">
+        <label for="f1">Fever&Cold</label><br>
+        <input type="text" id="f1" name="f1"><br>
+        <input type="checkbox" id="f2" name="f2" value="f2">
+        <label for="f1">Stomach Ache</label><br>
+        <input type="text" id="f2" name="f2"><br>
+        <input type="checkbox" id="f3" name="f3" value="f3">
+        <label for="f3">WomenCare</label><br>
+        <input type="text" id="f3" name="f3"><br>
+        <input type="checkbox" id="f4" name="f4" value="f4">
+        <label for="f4">DiabeticCare</label><br>
+        <input type="text" id="f4" name="f4"><br>
+        <input type="checkbox" id="f5" name="f5" value="f5">
+        <label for="f5">Bone And Join Pain</label><br>
+        <input type="text" id="f5" name="f5"><br>
+        <input type="checkbox" id="f6" name="f6" value="f6">
+        <label for="f6">Other</label><br>
+        <input type="text" id="f6" name="f6"><br>
+    </form>
+    <div class="text-center">
+        @Html.ActionLink("Continue", "Contact", new { Controller = "Food" }, new { @class = "btn btn-primary" })
+    </div>
+    </body>
+

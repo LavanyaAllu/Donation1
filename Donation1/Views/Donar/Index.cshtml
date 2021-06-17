@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+
+<body style="background-color:antiquewhite">
+    <div>
+        <div class="text-center">
+            @Html.ActionLink("Food", "Index", new { Controller = "Food" }, new { @class = "btn btn-primary" })
+            @Html.ActionLink("Clothes", "Index", new { Controller = "Clothing" }, new { @class = "btn btn-primary" })
+            @Html.ActionLink("Medicine", "Index", new { Controller = "Medicine" }, new { @class = "btn btn-primary" })
+        </div>
+        <img src="~/images/people.jpg" class="img-responsive" style="height:700px;width:1600px">
+    </div>
+   </body>

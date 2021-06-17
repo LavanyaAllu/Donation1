@@ -1,0 +1,35 @@
+﻿
+@{
+    ViewBag.Title = "Contact";
+}
+
+<h2>Contact</h2>
+
+<body style="background-color:antiquewhite">
+    <form>
+        <label for="f1">Name</label>
+        <br>
+        <input type="text" id="f1" name="f1">
+        <br>
+        <label for="f2">ContactNo</label>
+        <br>
+        <input type="text" id="f2" name="f2">
+        <br>
+        <label for="f3">Email</label>
+        <br>
+        <input type="text" id="f3" name="f3">
+        <br>
+        <label for="f4">Address</label>
+        <br>
+        <input type="text" id="f4" name="f4">
+        <br>
+        <label for="f5">Pincode</label>
+        <br>
+        <input type="text" id="f5" name="f5">
+        <br>
+    </form>
+    <div class="text-center">
+        @Html.ActionLink("Submit", "CheckOut", new { Controller = "Home" }, new { @class = "btn btn-primary" })
+    </div>
+</body>
+
