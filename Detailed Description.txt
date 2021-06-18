@@ -1,0 +1,11 @@
+Detailed Description -
+We often come across scenarios when we have access of things but dont get a proper platform to make it available to the needy.
+Therefore we have designed a web application , which acts as a connecting link between the donors and the people in need.
+
+Our application has three areas where you can donate , Food , Medicines and clothes.
+
+It lets the donor register himself and put the description of things which he wants to donate
+
+It consists of a portal which displays the list of availabe things , from which the people in need could select.
+Once the person selects the items , it notifies the Donor , along with the person's contact number .
+The donor could contact the Person . Thereby fulfilling the purpose.
